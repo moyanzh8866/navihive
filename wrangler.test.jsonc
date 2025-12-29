@@ -1,0 +1,24 @@
+{
+  "name": "navihive-test",
+  "compatibility_date": "2025-01-01",
+  "main": "dist/navihive/index.js",
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    // 认证配置
+    "AUTH_ENABLED": "true",
+    "AUTH_REQUIRED_FOR_READ": "false",
+    "AUTH_USERNAME": "admin",
+    "AUTH_PASSWORD": "$2b$10$eX4k9Vq8uLpO2jH7nC5mEeD4f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u",
+    "AUTH_SECRET": "U0aMw7ZNQTqFD56v85IkOkiBz0X3Ao1p"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "wangyedaohang",
+      "database_id": "a4e49f07-3ad3-407a-9069-b46286fddd48"
+    }
+  ]
+}
